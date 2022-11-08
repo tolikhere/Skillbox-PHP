@@ -4,8 +4,8 @@ $games = [
     "first" => "Uncharted",
     "second" => "God of War",
     "third" => "Uncharted",
-    "fourth" => "Jojo's Bizarre Adventure: Eyes Of Heaven",
-    "fifth" => "The Witness",
+    "fourth" => "The Witness",
+    "fifth" => "Jojo's Bizarre Adventure: Eyes Of Heaven",
 ];
 
 $amount = count($games);
