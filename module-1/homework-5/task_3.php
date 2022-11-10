@@ -14,7 +14,7 @@ while ($increasedDeposit < $doubledDeposit) {
         $interestRate += $interestRate * $increasingFloatRate;
     }
     $interestFloatRate = $interestRate / 100;
-    $increasedDeposit += round($deposit * $interestFloatRate, 2);
+    $increasedDeposit += round($increasedDeposit * $interestFloatRate, 2);
 }
 // print_r($increasedDeposit . "\n");
 print_r($year . "\n");
