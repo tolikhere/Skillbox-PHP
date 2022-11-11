@@ -9,10 +9,11 @@ $year = 0;
 $increasingFloatRate = $increasingRate / 100;
 
 while ($increasedDeposit < $doubledDeposit) {
-    $year += 1;
-    if ($year % 3 === 0) {
+    if ($year % 3 === 0 && $year !== 0) {
         $interestRate += $interestRate * $increasingFloatRate;
     }
+
+    $year += 1;
     $interestFloatRate = $interestRate / 100;
     $increasedDeposit += round($increasedDeposit * $interestFloatRate, 2);
 }
